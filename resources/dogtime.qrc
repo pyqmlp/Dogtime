@@ -1,0 +1,12 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource>
+        <file>icons/dogtime.png</file>
+        <file>icons/dogtime.ico</file>
+        <file>icons/floatingclock/lock.svg</file>
+        <file>icons/floatingclock/unlock.svg</file>
+        <file>icons/floatingclock/settings.svg</file>
+        <file>icons/floatingclock/close.svg</file>
+        <file>sounds/notification.wav</file>
+    </qresource>
+</RCC> 
