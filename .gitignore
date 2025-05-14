@@ -1,0 +1,63 @@
+# Qt项目专用.gitignore文件
+
+# 编译输出
+/bin/
+/build/
+/release/
+/debug/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.la
+*.lo
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*.qm
+*.prl
+
+# Qt相关文件
+object_script.*
+*.qmake.stash
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+*.autosave
+
+# IDE相关文件
+# QtCreator
+CMakeLists.txt.user
+*.creator.user*
+# Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.vcproj
+*.vcproj.*.user
+*.ncb
+*.suo
+*.sdf
+*.opensdf
+.vs/
+# VSCode
+.vscode/
+
+# 临时文件
+*~
+*.orig
+*.rej
+Thumbs.db
+.DS_Store
+*.swp
+*.bak
+
+# 项目特定文件
+*.log 
